@@ -1,3 +1,68 @@
-h1{
-	color:red;
+header{
+	background-color: teal;
+	border: 2px solid #cccccc;
+	color: #ffffff;
+	font-family: "Georgia", "Times", 
+	"Times New Roman", "serif";
+	width: 20%;
+	margin-left: 75px;
+	text-align: center;
+
+}
+
+body{
+	background-image: url(../images/background.png)
+}
+
+#container{
+	font-family: 'Arial', 'Helvetica Neue',
+	 "Helvetica", "sans-serif";
+}
+
+section{
+	float: left;
+	padding: 25px;
+}
+
+#mainbio{
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	width: 45%;
+	margin: 75px; 
+}
+
+#Contactinfo{
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	width: 25%;
+	margin: 75px;
+}
+
+h2{
+   color: teal;
+   text-align: center;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+	border-radius: 25%;
+	float: left;
+}
+
+
+p{
+	color: grey;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+footer{
+	clear: both;
+	background-color: #666666;
+	color: #efeee7;
+	border-top: 8px solid teal;
+	text-align: center;
+	overflow: auto;
 }
